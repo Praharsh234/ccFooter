@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Top container Styling part */
+.topContainer{
+    margin-top: 10px;
+    width: 45%;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    background-color: rgb(244,239,255);
+    padding: 30px;                                                              
+    border-radius: 15px;
+    position: relative;
+    
+    z-index: 2;
+}
+.head{
+    font-size: 20px;
+}
+.btn{
+    margin-left: 350px;
+    background-color: rgb(108,73,244);
+    padding: 15px;
+    color: rgb(243,239,254);                            
+    width: 140px;
+    border-radius: 10px;
+}
+.change{
+    margin-left: 0px;
+    padding: 14px;
+}
+
+.topText{
+    color: rgb(148, 122, 200);
+}
+.topText2{
+    color: rgb(70,54,136);
+}
+.lowerContainer{
+    background-color: rgb(24,33,55);
+
+    display: flex;
+    padding: 50px;
+    position: relative;
+    margin-top: -40px; /* Adjust this value to control how much the first div overlaps the second */
+   
+    display: flex;
+    padding: 50px;
+    z-index: 1;
+}
+.text{
+    color: whitesmoke;
+}
+.text2{
+    color: rgb(80,90,116);  
+}
+.ListItem:hover{
+    color: aliceblue;
+}
+.ListItem{
+    text-decoration: none;
+    list-style: none;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.notQuite{
+    margin-left: 400px;
+    margin-top: 30px;
+}
+
+.Heading{
+    margin-bottom: 30px;
+}
+
+.input{
+    border-radius: 3px;
+    padding: 13px;
+    border: none;
+    margin-top: 15px;
+}
+
+.padding{
+    padding: 30px;
+   
+}
+
+
+
+.margin{
+    margin-bottom: 30px;
+}
+.ListItem li {
+    margin-bottom: 10px;
+    /* Add this line to set the spacing between list items */
+}
+.ListItem li a{
+    text-decoration: none;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+}
+.about{
+    margin-left: 200px;
+}
